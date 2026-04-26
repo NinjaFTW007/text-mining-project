@@ -1,25 +1,50 @@
-# 🚀 Multi-Domain Text Mining System
+# 🚀 A Multi-Domain Text Mining Approach for Sentiment Analysis, Review Clustering, and Spam Detection
 
 ## 📌 Overview
 
-This project presents a **unified multi-domain text mining system** that integrates multiple analytical modules into a single platform. The system is designed to process and analyze textual data efficiently across different applications.
+This project presents a unified text mining system that integrates three major modules into a single platform:
 
-The system includes:
+* Sentiment Analysis
+* Review Clustering
+* Spam Detection
 
-* **Sentiment Analysis** – Identifies whether text is positive or negative
-* **Review Clustering** – Groups similar reviews into meaningful clusters
-* **Spam Detection** – Classifies messages as spam or legitimate
+The system processes unstructured textual data and provides meaningful insights using machine learning techniques.
 
 ---
 
 ## ⚙️ Features
 
-* Text preprocessing (cleaning, normalization, stopword removal)
+* Text preprocessing (cleaning, stopword removal, normalization)
 * TF-IDF based feature extraction
-* Classification and clustering techniques
-* Modular system design
-* Interactive user interface using Streamlit
-* Real-time text analysis
+* Sentiment classification with confidence scores
+* Review clustering using K-Means with visualizations
+* Spam detection with probability scores and keyword highlighting
+* Interactive UI using Streamlit
+
+---
+
+## 📊 Modules
+
+### 🔹 Sentiment Analysis
+
+* Predicts positive or negative sentiment
+* Displays confidence score and processing time
+* Highlights important words
+* Includes model comparison graph and confusion matrix
+
+### 🔹 Review Clustering
+
+* Groups similar reviews using K-Means
+* Shows elbow method and silhouette score graphs
+* Displays cluster distribution and word cloud
+* Provides cluster keywords and insights
+
+### 🔹 Spam Detection
+
+* Classifies messages as spam or legitimate
+* Shows probability scores
+* Highlights suspicious words
+* Includes model comparison and confusion matrix
 
 ---
 
@@ -33,24 +58,10 @@ The system includes:
 
 ---
 
-## 🧠 System Architecture
-
-The system follows a pipeline:
-Input → Preprocessing → TF-IDF → Modules (Sentiment / Clustering / Spam) → Output
-
----
-
-## ▶️ How to Run the Project
-
-1. Install dependencies:
+## ▶️ How to Run
 
 ```bash
 pip install -r requirements.txt
-```
-
-2. Run the application:
-
-```bash
 streamlit run app.py
 ```
 
@@ -74,8 +85,14 @@ README.md
 
 ---
 
+## 🔗 GitHub Repository
+
+https://github.com/NinjaFTW007/text-mining-project
+
+---
+
 ## 🎯 Conclusion
 
-This project demonstrates how multiple text mining techniques can be integrated into a single system to efficiently analyze textual data and provide meaningful insights.
+This project demonstrates how multiple text mining techniques can be integrated into a unified system to efficiently analyze textual data and support decision-making.
 
 ---
